@@ -26,10 +26,10 @@ async function startServer() {
 
     console.log("Step 2: MongoDB connected!");
 
-    const server = app.listen(5000, "0.0.0.0", () => {
-      console.log("Step 3: Express server started!");
-      console.log("Address:", server.address());
-    });
+    const server = app.listen(PORT, "0.0.0.0", () => {
+  console.log(`Server running on port ${PORT}`);
+});
+    
 
     server.on("error", (error) => {
       console.error("Server error:", error);
