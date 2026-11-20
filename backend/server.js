@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
 
 app.use("/api", profileRoutes);
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5000
 
 async function startServer() {
   try {
