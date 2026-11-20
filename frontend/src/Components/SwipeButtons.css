@@ -1,0 +1,31 @@
+
+.swipe-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 20px auto;
+}
+
+.swipe-buttons button {
+  padding: 14px 30px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.swipe-buttons button:hover {
+  transform: scale(1.08);
+}
+
+.pass-btn {
+  background: #f1f1f1;
+  color: #333;
+}
+
+.like-btn {
+  background: #ff4d78;
+  color: white;
+}
